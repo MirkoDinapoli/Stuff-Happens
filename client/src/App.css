@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans+Arabic:wght@100..800&display=swap');
+
+/* Imposta il font per tutta l'applicazione */
+  body {
+    font-family: 'Playpen Sans Arabic', sans-serif;
+  }
+
+.navbar-title,
+.navbar-title-game {
+  font-size: 1.5rem;
+  letter-spacing: 0.9px;
+  background: linear-gradient(
+    90deg,
+    rgb(24, 130, 16) 0%,
+    rgb(146, 127, 20) 60%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
+}
+
+.navbar-title:hover{
+  transform: scale(1.05, 1.05);
+  transition: transform 0.4s;
+}
+
+.navbar-title-game:hover{
+  animation: shake 0.4s;
+}
+
+.game-badge{
+  font-size: 1.2rem;
+  letter-spacing: 0.9px;
+  background: linear-gradient(
+    90deg,
+    rgb(24, 130, 16) 0%,
+    rgb(146, 127, 20) 60%
+  );
+}
+
+.game-button:hover{
+  border-width: 0ch;
+  transform: scale(1.05, 1.05);
+  background: linear-gradient(
+    90deg,
+    rgb(24, 130, 16) 0%,
+    rgb(146, 127, 20) 60%
+  );
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(-4px); }
+  40% { transform: translateX(4px); }
+  60% { transform: translateX(-4px); }
+  80% { transform: translateX(4px); }
+  100% { transform: translateX(0); }
+}
+
+img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: top;
+  display: block;
+}
+
+
+.card_element{
+  margin: 0.5rem;
+  width: 10rem; 
+  height: 24rem;
+}
+
+
+Button{
+  margin: 0.5rem;
+}
+
+.home-button:hover{
+  transform: scale(1.05, 1.05);
+}
+
+.select_button{
+  border-width: 0ch;
+  background: linear-gradient(
+    90deg,
+    rgb(24, 130, 16) 0%,
+    rgb(146, 127, 20) 60%
+  );
+  color: rgba(0, 0, 0, 0) !important;
+}
+
+.select_button:hover{
+  transform: scale(1.05, 1.05);
+  color:rgb(255, 255, 255) !important;
+}
+
+
+.centered_content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.centered_content_flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.description_badge_r0{
+  width: 100%;
+  white-space: normal;
+  margin-bottom: 0.25rem;
+  color: #000000;
+}
+
+.description_badge{
+  width: 100%;
+  white-space: normal;
+  margin-bottom: 0.25rem;
+}
