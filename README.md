@@ -1,4 +1,4 @@
-# Stuff Happens web application version
+# Stuff Happens: web application version
 This is a web-application of a single-player version of the Stuff Happens game. 
 ## How to try it
 In your terminal write:
